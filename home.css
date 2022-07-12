@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    font-family:Poppins;
+    margin:0;
+}
+.bgimg{
+    object-fit: cover;
+    width: 100%;
+    height: calc(60vh - 10px); 
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    left:315px;
+}
+.logo{
+    color:red;
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    font-size: 80px;
+    padding-left: 40px;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.intro{
+    font-size: 38px;
+    margin-top: 10px;
+    color:#FFFFFF;
+    font-weight: 600;
+}
+
+.form{
+    
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin-top: 10px;
+ 
+}
+
+.selectbox{
+    
+    margin-right: 10px;;
+}
+#selectbx{
+    height:50px;
+    width:220px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: #FFFFFF;
+    color: #636F88;
+}
+.search{
+   
+    margin-left:10px; 
+    display:flex; 
+}
+
+#srch{
+    height:50px;
+    width:480px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: #FFFFFF;
+    color: #636F88;
+}
+
+#icon{
+    background-color: #FFFFFF;
+    height: 50px;
+    width: 50px;
+    padding-top: 14px;
+    padding-left: 12px;
+    border-color: #FFFFFF;
+}
+
+.box2{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.heading{
+    color:#192F60;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.subheading{
+    margin-top:5px;
+    color: #636F88;
+    font-size: 15px;
+
+}
+
+.row{
+    display: flex;
+    margin-left: 8%;
+    margin-top: 2%;
+    width: 80%;
+    margin-bottom:2%;
+}
+
+.item{
+    display: flex;
+    width: 360px;
+    height: 150px;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-left: 25px;
+}
+
+.item-left{
+    display: flex;
+}
+
+#bf{
+    width: 160px;
+    height: 150px; 
+    object-fit: cover;
+}
+
+.item-right{
+    display:flex;
+    flex-direction: column; 
+}
+
+.item-right-top{
+    font-size: 18px;
+    color:#192F60;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.item-right-bottom{
+    font-size: 12px;
+    color: #636F88;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 32px;
+
+}
